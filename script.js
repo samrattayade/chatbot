@@ -57,9 +57,13 @@ function botReply(userMessage) {
   else if (msg.includes("hello") || msg.includes("hi")) {
     reply = "Hello! Ask me anything about Artificial Intelligence 🤖";
   }
+    else if (msg.includes("samrat") || msg.includes("samrat tayade")) {
+    reply = "My creator is samrattayade you can search on google or social media";
+  }
   else if (msg.includes("bye")) {
     reply = "Goodbye! Keep learning AI 🚀";
   }
 
   addMessage(reply, "bot");
 }
+
